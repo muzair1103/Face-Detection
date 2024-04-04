@@ -1,16 +1,20 @@
-##Video Face Detection using DeepFace and OpenCV
+Video Face Detection using DeepFace and OpenCV
 This script performs face detection on a video using the DeepFace library and OpenCV. It extracts faces from each frame of the input video, draws bounding boxes around the detected faces, and saves the processed video with bounding boxes as output.
 
 Requirements
-Python 3.10
-opencv-python 4.8.0.76
-deepface 0.0.89
+Python 3.x
+OpenCV (cv2)
+DeepFace library
+
 
 Installation
 Install Python 3.x from python.org.
+
 Install OpenCV and DeepFace library using pip:
+
 pip install opencv-python-headless
 pip install deepface
+
 
 Usage
 Ensure that your input video is located in your Google Drive and update the num variable to specify the video number.
